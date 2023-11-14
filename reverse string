@@ -1,0 +1,7 @@
+word=input("enter some statements:")
+word_list = word.split()
+number=[]
+for i in word_list:
+    number+=[i[::-1]]
+reverse=" ".join(number)
+print(reverse)
